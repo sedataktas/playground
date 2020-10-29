@@ -21,6 +21,6 @@ func main() {
 	if digit > 0 && digit < MaxDigit {
 		fmt.Printf("%.*f\n", digit, math.Pi)
 	} else {
-		fmt.Println("Digit number should be between 0 and 20")
+		fmt.Printf("Digit number should be between 0 and %d\n", MaxDigit)
 	}
 }
