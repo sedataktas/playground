@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	MaxPiDigit = 20
+	MaxEDigit = 20
 )
 
 func main() {
@@ -18,9 +18,9 @@ func main() {
 		panic(err)
 	}
 
-	if digit > 0 && digit < MaxPiDigit {
-		fmt.Printf("%.*f\n", digit, math.Pi)
+	if digit > 0 && digit < MaxEDigit {
+		fmt.Printf("%.*f\n", digit, math.E)
 	} else {
-		fmt.Printf("Digit number should be between 0 and %d\n", MaxPiDigit)
+		fmt.Printf("Digit number should be between 0 and %d\n", MaxEDigit)
 	}
 }
